@@ -1,0 +1,22 @@
+{
+	"development": {
+		"username": "root",
+		"password": "root",
+		"database": "burgers_db",
+		"host": "localhost",
+		"dialect": "mysql",
+		"port": 8889
+	},
+	"test": {
+		"username": "root",
+		"password": "root",
+		"database": "burgers_db",
+		"host": "localhost",
+		"dialect": "mysql",
+		"port": 8889
+	},
+	"production": {
+		"use_env_variable":"JawsDB_URL",
+		"dialect": "mysql"
+	}
+}
